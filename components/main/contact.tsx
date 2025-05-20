@@ -37,9 +37,8 @@ export const ContactMe = () => {
         e.preventDefault();
 
         const templateParams = {
-            from_name: nameRef.current?.value || '',
-            from_email: emailRef.current?.value || '',
-            to_name: "Ashish Sharma",
+            name: nameRef.current?.value || '',
+            email: emailRef.current?.value || '',
             message: messageRef.current?.value || '',
         };
 
