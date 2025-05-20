@@ -7,7 +7,7 @@ class EmailClient {
     emailjs.send(
       NEXT_PUBLIC_EMAIL_SERVICE_ID,
       NEXT_PUBLIC_EMAIL_TEMPLATE_ID,
-      ...templateParams,
+      templateParams,
       NEXT_PUBLIC_EMAILJS_USER_ID
     )
       .then((response) => {
